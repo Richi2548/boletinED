@@ -30,7 +30,7 @@ public class Asignatura {
         alumnos.add(alumno);
     }
 
-    public void eliminarAlumno(Alumno alumno) {
+    public void eliminarAlumno(Alumno alumno) { //elimina un alummno
         for (Alumno a : this.alumnos) {
             if (a.getNombre().equals(alumno.nombre)) alumnos.remove(a);
         }

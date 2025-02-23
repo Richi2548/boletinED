@@ -32,5 +32,7 @@ public class Main {
         // Mostrar notas de los alumnos
         alumno1.mostrarNotas();
         alumno2.mostrarNotas();
+
+        matematicas.imprimirAlumnos();
     }
 }
