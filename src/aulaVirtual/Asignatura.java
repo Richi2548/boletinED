@@ -35,4 +35,10 @@ public class Asignatura {
             if (a.getNombre().equals(alumno.nombre)) alumnos.remove(a);
         }
     }
+
+    public void imprimirDatosAlumnos() {
+        for (Alumno alumno : alumnos) {
+            System.out.println(alumno.toString());
+        }
+    }
 }
